@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/TestingAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.212" />
+        <entry key="..\:/TestingAndroid/app/src/main/res/drawable/custom_textbox.xml" value="0.298" />
         <entry key="..\:/TestingAndroid/app/src/main/res/drawable/custom_textbpx.xml" value="0.14" />
         <entry key="..\:/TestingAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.212" />
+        <entry key="..\:/TestingAndroid/app/src/main/res/drawable/shape_bg_btn_login.xml" value="0.298" />
         <entry key="..\:/TestingAndroid/app/src/main/res/layout/activity_main.xml" value="0.26979166666666665" />
         <entry key="..\:/TestingAndroid/app/src/main/res/layout/content_main.xml" value="0.26979166666666665" />
         <entry key="..\:/TestingAndroid/app/src/main/res/layout/fragment_first.xml" value="0.33" />
-        <entry key="..\:/TestingAndroid/app/src/main/res/layout/fragment_second.xml" value="0.26979166666666665" />
+        <entry key="..\:/TestingAndroid/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/TestingAndroid/app/src/main/res/layout/fragment_second.xml" value="0.33" />
         <entry key="..\:/TestingAndroid/app/src/main/res/menu/menu_main.xml" value="0.18541666666666667" />
       </map>
     </option>

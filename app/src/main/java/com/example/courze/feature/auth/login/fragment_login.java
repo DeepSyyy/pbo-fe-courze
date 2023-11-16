@@ -1,4 +1,4 @@
-package com.example.courze;
+package com.example.courze.feature.auth.login;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,13 +8,15 @@ import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
-import com.example.courze.databinding.FragmentFirstBinding;
+
+import com.example.courze.R;
+import com.example.courze.databinding.FragmentLoginBinding;
 import android.text.InputType;
 
 
-public class FirstFragment extends Fragment {
+public class fragment_login extends Fragment {
 
-    private FragmentFirstBinding binding;
+    private FragmentLoginBinding binding;
     private EditText passwordToggle;
     private boolean isPasswordVisible = false;
 
@@ -24,7 +26,7 @@ public class FirstFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         // Inflate the layout for this fragment
-        binding = FragmentFirstBinding.inflate(inflater, container, false);
+        binding = FragmentLoginBinding.inflate(inflater, container, false);
         passwordToggle = binding.getRoot().findViewById(R.id.password_toggle);
         setupPasswordToggle();
         return binding.getRoot();
@@ -47,10 +49,10 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.login.setOnClickListener(new View.OnClickListener() {
+        binding.register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(FirstFragment.this)
+                NavHostFragment.findNavController(fragment_login.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
         });
